@@ -1,0 +1,301 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+}
+a { 
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   margin-left: -40px;
+}
+.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+}
+#sticky-social {
+   right: 0;
+   position: fixed;
+   top: 150px;
+}
+#sticky-social a {
+   background: #333;
+   color: #fff;
+   display: block;
+   height: 35px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+}
+#sticky-social a span {
+   line-height: 35px;
+   right: -120px;
+   position: absolute;
+   text-align:center;
+   width:120px;
+}
+#sticky-social a:hover span {
+   right: 100%;
+
+}
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span { background: #3b5998; }
+
+#sticky-social a[class*="twitter"],
+#sticky-social a[class*="twitter"]:hover,
+#sticky-social a[class*="twitter"] span { background: #00aced; }
+
+
+#sticky-social a[class*="linkedin"],
+#sticky-social a[class*="linkedin"]:hover,
+#sticky-social a[class*="linkedin"] span { background: #007bb6; }  
+
+#sticky-social a[class*="instagrem"],
+#sticky-social a[class*="instagrem"]:hover,
+#sticky-social a[class*="instagrem"] span { background: #517fa4; }  
+
+#sticky-social a[class*="github"],
+#sticky-social a[class*="github"]:hover,
+#sticky-social a[class*="github"] span { background: #666699; }  
+
+
+body{
+    background: #FED36D;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family:  "Century Gothic", sans-serif; 
+    color: #1954A0 ;
+    border-bottom: 2px solid black;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    margin-right: 160px;
+    margin-left: 160px;
+    text-align:center;
+
+}
+
+h2{
+    border-bottom: 2px solid black ;
+    font-family: "Courier New" ;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 470px;
+    margin-left: 470px;
+    color: #1954A0;
+    text-align:center;
+}
+
+h3{
+    font-family: "Courier New" ;
+    color: #1954A0;
+
+
+}
+h4{
+    font-family: "Courier New" ;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Courier New" ;
+    color: black ;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+li {
+    text-align:center;
+    list-style: none;
+    font-family: "Courier New" ;
+}
+
+a {
+    color: #F06A67;
+    text-decoration: none;
+    font-family: "Courier New" ;
+
+}
+
+.lista li a:hover{
+    color: #1954A0;
+    font-weight: bold;
+}
+
+.lista a:visited {
+    color: #F06A67;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.lista ul li {
+    color: black;
+    font-family: "Courier New" ;
+    text-align: left;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+.data{
+    text-align: left;
+    font-family: "Courier New" ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 160px;
+    margin-left: 160px;
+    border: 1px solid #808080; 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.perfil img {
+    border: solid black;
+    margin-right: 34%;
+    margin-left: 34%;
+}
+
+.infos h3 {
+    text-align:center;
+}
+
+.infos h4 {
+    text-align:center;
+}
+
+
+
+div.img {
+    margin: 65px;
+    border: 1px solid #1954A0;
+    float: left;
+    width: 180px;
+    font-family: "Courier New" ;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+    font-family: "Courier New" ;
+}
+
+div.img img {
+    width: 100%;
+    height: 120px;
+    font-family: "Courier New" ;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "Courier New" ;
+}
+
+nav ul {
+	-webkit-font-smoothing:antialiased;
+    background: #1954A0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Courier New" ;
+    position: fixed; 
+    top: 10px;
+    left:0px ;
+}
+nav li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: 33.33%;
+    font-family: "Courier New" ;
+}
+nav a {
+    background: #1954A0;
+    color: white;
+    display: block;
+    font: bold 16px/50px sans-serif;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+    font-family: "Courier New" ;
+}
+nav .dropdown:after {
+    content: ' ▶';
+    font-family: "Courier New" ;
+}
+nav .dropdown:hover:after{
+	content:'\25bc';
+    font-family: "Courier New" ;
+    background: #F06A67 ;
+}
+nav li:hover a {
+    background: #F06A67 ;
+    font-family: "Courier New" ;
+}
+nav li ul {
+    float: left;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+    font-family: "Courier New" ;
+}
+nav li:hover ul {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+    font-family: "Courier New" ;
+}
+nav li ul li {
+    float: none;
+    width: 100%;
+    font-family: "Courier New" ;
+}
+nav li ul a:hover {
+    background: #E86664;
+    font-family: "Courier New" ;
+
+}
+
+
+/* Clearfix */
+
+.cf:after, .cf:before {
+    content:"";
+    display:table;
+    font-family: "Courier New" ;
+
+}
+.cf:after {
+    clear:both;
+    font-family: "Courier New" ;
+}
+.cf {
+    font-family: "Courier New" ;
+}

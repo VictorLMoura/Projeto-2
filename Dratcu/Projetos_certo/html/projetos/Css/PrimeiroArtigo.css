@@ -1,0 +1,139 @@
+body {
+    line-height: 1;
+	background-color: #eaeaea(60, 100%, 99%, 0.43);  
+	
+}
+
+main {
+	width: 100%;
+	max-width: 1280px;
+	margin: auto;
+	padding: auto;
+	min-height: 474px;
+	font-family: Open Sans, Verdana;
+	font-size: 14px;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+
+h1 {
+	font-weight: bold;
+}
+
+
+
+footer{
+	width: 100%;
+	margin: 100px 0px 0px 0px;
+	padding: auto;
+	background-color: black;
+}
+
+.menu-item a{
+	color: #FFFFFC;
+	font-weight: bold;
+	text-decoration: none ;
+}
+
+.Nome{
+	margin: 20px 0px 0px 390px;
+}
+
+.Voltar{
+	margin: 20px 0px 0px 390px;
+}
+
+.Titulo{
+	margin: 10px 0px 10px 390px;
+}
+
+.Curso{
+	margin: 20px 0px 0px 390px;
+}
+
+
+.Semestre{
+	margin: 20px 0px 0px 390px;
+}
+
+.Tempo{
+	margin: 20px 0px 0px 390px;
+}
+
+.Design{
+	margin: 20px 0px 0px 390px;
+}
+
+.Descrição{
+	margin: 20px 370px 0px 390px;
+}
+
+.voltar{
+	margin: 20px 0px 0px 390px;	
+}
+
+
+.Data{
+	margin: 20px 0px 0px 390px;
+}
+
+.Nome{
+	margin: 20px 0px 0px 390px;
+}
+
+.menuitem {
+	float: left;
+	width: 200px;
+	margin: 0px 0px 0px 0px;
+	color: #999999;
+	background-color: transparent;
+	list-style: none;
+}
+
+.menu-item {
+	float: left;
+	max-width: auto;
+	margin: 10px 10px 10px 45px;
+	background-color: #000000;
+	padding: 0.5rem;
+	font-family: Open Sans, Verdana;
+	color: #999999;
+	font-size: 0.8rem;
+	position: relative;
+	transition: color .5s, background-color .5s;
+}
+.menu-item:hover {
+	color: #FFFFFC;
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.submenu {
+	visibility: hidden;
+	position: absolute;
+
+	margin: 0px 0px 0px 0px;
+	left: 0%;
+	top: 100%;
+	background-color: #000000;
+
+}
+
+.menu-item:hover .submenu {
+	visibility: visible;
+}
+
+nav{	
+	background-color: #000000;
+}
+
+.border{
+	border: solid black 2px;
+}
+
+.blackb:hover{
+	background-color: black;
+}

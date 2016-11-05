@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+  <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+  <script src="../../scripts/main.js"></script>
+      <script>
+      function verify(){
+        envia("final", id_pessoa, Date.now(), versao);
+        window.location.replace("agradecimento.html");
+    }
+    </script>
+
+	<link rel="stylesheet" type="text/css" href="../stylesheet.css">
+	<meta charset="utf-8">
+	<title>Chuveiro Elétrico</title>
+</head>
+<body onload="verify()">
+	<nav>
+    <ul class="cf">
+
+        <li><a href="../index2.html">Home</a></li>
+
+        <li><a class="dropdown" href="#">Taxonomia dos Projetos</a>
+            <ul>
+                <li><a href="eletronica.html"> Eletrônica </a></li>
+                <li><a href="mecanica.html"> Mecânica </a></li>
+                <li><a href="computacao.html"> Computação </a></li>
+                <li><a href="design.html"> Design </a></li>
+            </ul>
+        </li>
+        <li><a href="about.html">Sobre Mim</a></li>
+
+    </ul>
+
+</nav>
+
+<aside id="sticky-social">
+    <ul>
+        <li><a href="https://www.facebook.com/KleberBambamfc/?fref=ts" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
+        <li><a href="https://twitter.com/kleberbbb?lang=pt" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
+        <li><a href="#" class="entypo-linkedin" target="_blank"><span>LinkedIn</span></a></li>
+        <li><a href="https://www.instagram.com/bambamoficial/" class="entypo-instagrem" target="_blank"><span>Instagram</span></a></li>
+        <li><a href="https://github.com/LucaNoto/CDDA" class="entypo-github" target="_blank"><span>GitHub</span></a></li>
+    </ul>
+</aside>
+
+
+<h1>Relatório Chuveiro Elétrico</h1>
+
+<h2>Breve descrição</h2>
+
+<p>A atividade consistiu na construção de um modelo de chuveiro com 3 temperaturas diferentes utilizando um circuito com 3 resistores iguais. Para tanto, pensamos em fazer uma “chave” no circuito, a qual poderia estar ligada em 3 pontos diferentes: A,B e C. Em A, a resistência equivalente do circuito seria a de apenas um resistor; em B, a resistência equivalente do circuito seria a de 2 resistores em série; em C, a resistência equivalente do circuito seria a de 3 resistores em série. Testamos o circuito na protoboard e calculamos os valores teóricos. Por fim, medimos os valores com o multímetro e comparamos ambos numa tabela.</p>
+
+<h2>Project Data</h2>
+
+<div class="data">
+
+    <h3> Nome:</h3> Sist. de Aquecimento do Chuveiro Elétrico
+    <h3>Curso:</h3>  Ciclo básico - Instrumentação e Medição 
+    <h3>Período</h3> 1˚ Período 
+    <h3>Habilidades Envolvidas:</h3>
+    <h3>Outros:</h3>
+
+</div>
+
+<h2>Mídias do Projeto</h2>
+
+
+<div class="img">
+  <a target="_blank" href="../img/chuveiroeletrico.jpg">
+    <img src="../img/chuveiroeletrico.jpg" width="300" height="200" alt="">
+  </a>
+  <div class="desc">Imagem Exemplo 1 </div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../img/aperto.jpg">
+    <img src="../img/aperto.jpg" width="300" height="200" alt="">
+  </a>
+  <div class="desc">Imagem Exemplo 2 </div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../img/pcb.jpg">
+    <img src="../img/pcb.jpg" width="300" height="200" alt="">
+  </a>
+  <div class="desc">Imagem Exemplo 3 </div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="../img/petroleo.jpg">
+    <img src="../img/petroleo.jpg" width="300" height="200" alt="">
+  </a>
+  <div class="desc">Imagem Exemplo 3 </div>
+</div>
+
+
+
+</body>
+</html>
